@@ -1,0 +1,26 @@
+[
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3"],
+    "matches": "https://stackoverflow.com",
+    "selectors": [".s-prose.js-post-body", ".comment-copy"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3"],
+    "matches": "lazyvim-ambitious-devs.phillips.codes",
+    "selectors": [".sectionbody"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3"],
+    "matches": "www.lazyvim.org",
+    "selectors": ["article"]
+  },
+  {
+    "matches": "www.google.com",
+    "selectors": [".title"]
+  },
+  {
+    "excludeSelectors": ["nav", "footer"],
+    "matches": "twitter.com",
+    "selectors": [".text"]
+  }
+]

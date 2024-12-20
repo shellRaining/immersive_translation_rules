@@ -1,5 +1,20 @@
 [
   {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
+    "matches": "https://en.wikipedia.org",
+    "selectors": ["#bodyContent"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
+    "matches": "https://css-tricks.com",
+    "selectors": [".article-content"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
+    "matches": "https://vercel.com",
+    "selectors": []
+  },
+  {
     "excludeSelectors": ["table", "h1", "h2", "h3"],
     "matches": "https://stackoverflow.com",
     "selectors": [".s-prose.js-post-body", ".comment-copy"]

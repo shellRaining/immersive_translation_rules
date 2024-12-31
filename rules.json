@@ -1,5 +1,30 @@
 [
   {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "nav"],
+    "matches": "https://biomejs.dev",
+    "selectors": ["main"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
+    "matches": "https://lazy.folke.io",
+    "selectors": ["article"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
+    "matches": "https://ai.google.dev",
+    "selectors": [".devsite-article-body"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "button"],
+    "matches": "https://cmp.saghen.dev",
+    "selectors": [".content"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
+    "matches": "https://ghostty.org",
+    "selectors": ["main"]
+  },
+  {
     "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
     "matches": "https://en.wikipedia.org",
     "selectors": ["#bodyContent"]

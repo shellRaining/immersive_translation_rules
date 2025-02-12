@@ -1,6 +1,21 @@
 [
   {
-    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "nav"],
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
+    "matches": "https://beancount.github.io",
+    "selectors": ["div.section"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
+    "matches": "https://antfu.me",
+    "selectors": ["article"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
+    "matches": "https://bun.sh",
+    "selectors": ["article"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
     "matches": "https://biomejs.dev",
     "selectors": ["main"]
   },

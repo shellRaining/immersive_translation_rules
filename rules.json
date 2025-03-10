@@ -1,5 +1,40 @@
 [
   {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "div.aside", "iframe"],
+    "matches": "https://developer.mozilla.org",
+    "selectors": ["article"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "div.aside"],
+    "matches": "https://developer.chrome.com",
+    "selectors": ["article"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "div.aside"],
+    "matches": "https://tc39.es",
+    "selectors": ["div#spec-container"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "div.aside"],
+    "matches": "https://docs.github.com",
+    "selectors": ["div#article-contents"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "div.aside"],
+    "matches": "https://www.typescriptlang.org",
+    "selectors": ["div.markdown"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "div.aside"],
+    "matches": "https://rolldown.rs",
+    "selectors": ["div.content"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "div.switcher"],
+    "matches": "https://esbuild.github.io",
+    "selectors": ["main"]
+  },
+  {
     "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
     "matches": "https://beancount.github.io",
     "selectors": ["div.section"]

@@ -1,6 +1,31 @@
 [
   {
     "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "div.aside", "iframe"],
+    "matches": "https://chatgpt.com",
+    "selectors": ["article"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "div.aside", "iframe"],
+    "matches": "https://gemini.google.com",
+    "selectors": ["model-response"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "div.aside", "iframe"],
+    "matches": "https://perfetto.dev",
+    "selectors": ["main.doc"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "div.aside", "iframe"],
+    "matches": "https://jakearchibald.com",
+    "selectors": ["div.content"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "div.aside", "iframe"],
+    "matches": "https://www.w3.org",
+    "selectors": ["body"]
+  },
+  {
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "div.aside", "iframe"],
     "matches": "https://developer.mozilla.org",
     "selectors": ["article"]
   },

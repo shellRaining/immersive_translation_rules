@@ -10,6 +10,34 @@
       "div.aside",
       "iframe"
     ],
+    "matches": "https://nx.dev",
+    "selectors": ["article"]
+  },
+  {
+    "excludeSelectors": [
+      "table",
+      "h1",
+      "h2",
+      "h3",
+      "nav",
+      "aside",
+      "div.aside",
+      "iframe"
+    ],
+    "matches": "https://lerna.js.org",
+    "selectors": ["div.markdown"]
+  },
+  {
+    "excludeSelectors": [
+      "table",
+      "h1",
+      "h2",
+      "h3",
+      "nav",
+      "aside",
+      "div.aside",
+      "iframe"
+    ],
     "matches": "https://inversify.io/docs",
     "selectors": ["div.markdown"]
   },

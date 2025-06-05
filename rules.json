@@ -10,6 +10,20 @@
       "div.aside",
       "iframe"
     ],
+    "matches": "https://code.visualstudio.com/api/*/*",
+    "selectors": ["main"]
+  },
+  {
+    "excludeSelectors": [
+      "table",
+      "h1",
+      "h2",
+      "h3",
+      "nav",
+      "aside",
+      "div.aside",
+      "iframe"
+    ],
     "matches": "https://nx.dev",
     "selectors": ["article"]
   },

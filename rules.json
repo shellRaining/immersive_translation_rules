@@ -53,6 +53,20 @@
       "iframe"
     ],
     "matches": "https://code.visualstudio.com/api/*/*",
+    "selectors": ["div#markdown-content-container"]
+  },
+  {
+    "excludeSelectors": [
+      "table",
+      "h1",
+      "h2",
+      "h3",
+      "nav",
+      "aside",
+      "div.aside",
+      "iframe"
+    ],
+    "matches": "https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/",
     "selectors": ["main"]
   },
   {

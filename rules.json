@@ -10,6 +10,48 @@
       "div.aside",
       "iframe"
     ],
+    "matches": "https://llmstxt.org/",
+    "selectors": ["main.content"]
+  },
+  {
+    "excludeSelectors": [
+      "table",
+      "h1",
+      "h2",
+      "h3",
+      "nav",
+      "aside",
+      "div.aside",
+      "iframe"
+    ],
+    "matches": "https://oxc.rs",
+    "selectors": ["div.content"]
+  },
+  {
+    "excludeSelectors": [
+      "table",
+      "h1",
+      "h2",
+      "h3",
+      "nav",
+      "aside",
+      "div.aside",
+      "iframe"
+    ],
+    "matches": "https://modelcontextprotocol.io",
+    "selectors": ["div.mdx-content"]
+  },
+  {
+    "excludeSelectors": [
+      "table",
+      "h1",
+      "h2",
+      "h3",
+      "nav",
+      "aside",
+      "div.aside",
+      "iframe"
+    ],
     "matches": "https://code.visualstudio.com/api/*/*",
     "selectors": ["main"]
   },

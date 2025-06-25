@@ -38,6 +38,20 @@
       "div.aside",
       "iframe"
     ],
+    "matches": "https://trunkbaseddevelopment.com",
+    "selectors": ["article"]
+  },
+  {
+    "excludeSelectors": [
+      "table",
+      "h1",
+      "h2",
+      "h3",
+      "nav",
+      "aside",
+      "div.aside",
+      "iframe"
+    ],
     "matches": "https://modelcontextprotocol.io",
     "selectors": ["div.mdx-content"]
   },

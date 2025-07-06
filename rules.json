@@ -10,6 +10,20 @@
       "div.aside",
       "iframe"
     ],
+    "matches": "https://claude.ai/chat",
+    "selectors": ["div[data-test-render-count]"]
+  },
+  {
+    "excludeSelectors": [
+      "table",
+      "h1",
+      "h2",
+      "h3",
+      "nav",
+      "aside",
+      "div.aside",
+      "iframe"
+    ],
     "matches": "https://llmstxt.org/",
     "selectors": ["main.content"]
   },

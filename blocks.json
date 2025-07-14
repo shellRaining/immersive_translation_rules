@@ -1,0 +1,21 @@
+{
+  "blockUrls": [
+    "*immersivetranslate.com/preview",
+    "*.immersivetranslate.com/download-subtitle*",
+    "dash.immersivetranslate.com/*",
+    "zjuers.com",
+    "ku.baidu-int.com",
+    "console.cloud.baidu-int.com",
+    "duhr.baidu.com",
+    "cspo-zju-edu-cn.webvpn.zju.edu.cn",
+    "www.bilibili.com",
+    "www.figma.com",
+    "cloud.shellraining.xyz",
+    "hcm.baidu.com",
+    "www-cc98-org-s.webvpn.zju.edu.cn",
+    "console.bce.baidu.com",
+    "shellraining.xyz",
+    "localhost",
+    "gallery.selfboot.cn"
+  ]
+}

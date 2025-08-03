@@ -10,10 +10,50 @@
       "div.aside",
       "iframe"
     ],
+    "matches": "https://neovim.io",
+    "selectors": ["div.col-wide"]
+  },
+  {
+    "excludeSelectors": [
+      "table",
+      "h1",
+      "h2",
+      "h3",
+      "nav",
+      "aside",
+      "div.aside",
+      "iframe"
+    ],
+    "matches": "https://docs.anthropic.com",
+    "selectors": ["div.mdx-content"]
+  },
+  {
+    "excludeSelectors": [
+      "table",
+      "h1",
+      "h2",
+      "h3",
+      "nav",
+      "aside",
+      "div.aside",
+      "iframe"
+    ],
+    "matches": "https://forum.cursor.com",
+    "selectors": ["div.cooked"]
+  },
+  {
+    "excludeSelectors": [
+      "table",
+      "h1",
+      "h2",
+      "h3",
+      "nav",
+      "aside",
+      "div.aside",
+      "iframe"
+    ],
     "matches": "https://den.dev/blog/vscode-mcp-elicitations-stop-guessing/",
-    "selectors": [
-      "article"
-    ]
+    "selectors": ["article"]
   },
   {
     "excludeSelectors": [
@@ -27,9 +67,7 @@
       "iframe"
     ],
     "matches": "https://claude.ai/chat",
-    "selectors": [
-      "div[data-test-render-count]"
-    ]
+    "selectors": ["div[data-test-render-count]"]
   },
   {
     "excludeSelectors": [
@@ -43,9 +81,7 @@
       "iframe"
     ],
     "matches": "https://llmstxt.org/",
-    "selectors": [
-      "main.content"
-    ]
+    "selectors": ["main.content"]
   },
   {
     "excludeSelectors": [
@@ -59,9 +95,7 @@
       "iframe"
     ],
     "matches": "https://oxc.rs",
-    "selectors": [
-      "div.content"
-    ]
+    "selectors": ["div.content"]
   },
   {
     "excludeSelectors": [
@@ -75,9 +109,7 @@
       "iframe"
     ],
     "matches": "https://trunkbaseddevelopment.com",
-    "selectors": [
-      "article"
-    ]
+    "selectors": ["article"]
   },
   {
     "excludeSelectors": [
@@ -91,9 +123,7 @@
       "iframe"
     ],
     "matches": "https://modelcontextprotocol.io",
-    "selectors": [
-      "div.mdx-content"
-    ]
+    "selectors": ["div.mdx-content"]
   },
   {
     "excludeSelectors": [
@@ -107,9 +137,7 @@
       "iframe"
     ],
     "matches": "https://code.visualstudio.com/api/*/*",
-    "selectors": [
-      "div#markdown-content-container"
-    ]
+    "selectors": ["div#markdown-content-container"]
   },
   {
     "excludeSelectors": [
@@ -123,9 +151,7 @@
       "iframe"
     ],
     "matches": "https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/",
-    "selectors": [
-      "main"
-    ]
+    "selectors": ["main"]
   },
   {
     "excludeSelectors": [
@@ -139,9 +165,7 @@
       "iframe"
     ],
     "matches": "https://nx.dev",
-    "selectors": [
-      "article"
-    ]
+    "selectors": ["article"]
   },
   {
     "excludeSelectors": [
@@ -155,9 +179,7 @@
       "iframe"
     ],
     "matches": "https://lerna.js.org",
-    "selectors": [
-      "div.markdown"
-    ]
+    "selectors": ["div.markdown"]
   },
   {
     "excludeSelectors": [
@@ -171,9 +193,7 @@
       "iframe"
     ],
     "matches": "https://inversify.io/docs",
-    "selectors": [
-      "div.markdown"
-    ]
+    "selectors": ["div.markdown"]
   },
   {
     "excludeSelectors": [
@@ -187,9 +207,7 @@
       "iframe"
     ],
     "matches": "https://chatgpt.com",
-    "selectors": [
-      "article"
-    ]
+    "selectors": ["article"]
   },
   {
     "excludeSelectors": [
@@ -203,9 +221,7 @@
       "iframe"
     ],
     "matches": "https://gemini.google.com",
-    "selectors": [
-      "model-response"
-    ]
+    "selectors": ["model-response"]
   },
   {
     "excludeSelectors": [
@@ -219,9 +235,7 @@
       "iframe"
     ],
     "matches": "https://perfetto.dev",
-    "selectors": [
-      "main.doc"
-    ]
+    "selectors": ["main.doc"]
   },
   {
     "excludeSelectors": [
@@ -235,9 +249,7 @@
       "iframe"
     ],
     "matches": "https://jakearchibald.com",
-    "selectors": [
-      "div.content"
-    ]
+    "selectors": ["div.content"]
   },
   {
     "excludeSelectors": [
@@ -251,9 +263,7 @@
       "iframe"
     ],
     "matches": "https://www.w3.org",
-    "selectors": [
-      "body"
-    ]
+    "selectors": ["body"]
   },
   {
     "excludeSelectors": [
@@ -267,9 +277,7 @@
       "iframe"
     ],
     "matches": "https://developer.mozilla.org",
-    "selectors": [
-      "article"
-    ]
+    "selectors": ["article"]
   },
   {
     "excludeSelectors": [
@@ -282,9 +290,7 @@
       "div.aside"
     ],
     "matches": "https://developer.chrome.com",
-    "selectors": [
-      "article"
-    ]
+    "selectors": ["article"]
   },
   {
     "excludeSelectors": [
@@ -297,9 +303,7 @@
       "div.aside"
     ],
     "matches": "https://tc39.es",
-    "selectors": [
-      "div#spec-container"
-    ]
+    "selectors": ["div#spec-container"]
   },
   {
     "excludeSelectors": [
@@ -312,9 +316,7 @@
       "div.aside"
     ],
     "matches": "https://docs.github.com",
-    "selectors": [
-      "div#article-contents"
-    ]
+    "selectors": ["div#article-contents"]
   },
   {
     "excludeSelectors": [
@@ -327,9 +329,7 @@
       "div.aside"
     ],
     "matches": "https://www.typescriptlang.org",
-    "selectors": [
-      "div.markdown"
-    ]
+    "selectors": ["div.markdown"]
   },
   {
     "excludeSelectors": [
@@ -342,9 +342,7 @@
       "div.aside"
     ],
     "matches": "https://rolldown.rs",
-    "selectors": [
-      "div.content"
-    ]
+    "selectors": ["div.content"]
   },
   {
     "excludeSelectors": [
@@ -357,214 +355,85 @@
       "div.switcher"
     ],
     "matches": "https://esbuild.github.io",
-    "selectors": [
-      "main"
-    ]
+    "selectors": ["main"]
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3",
-      "nav",
-      "aside"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
     "matches": "https://beancount.github.io",
-    "selectors": [
-      "div.section"
-    ]
+    "selectors": ["div.section"]
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3",
-      "nav",
-      "aside"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
     "matches": "https://antfu.me",
-    "selectors": [
-      "article"
-    ]
+    "selectors": ["article"]
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3",
-      "nav",
-      "aside"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
     "matches": "https://bun.sh",
-    "selectors": [
-      "article"
-    ]
+    "selectors": ["article"]
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3",
-      "nav",
-      "aside"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
     "matches": "https://biomejs.dev",
-    "selectors": [
-      "main"
-    ]
+    "selectors": ["main"]
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3",
-      "nav",
-      "aside"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
     "matches": "https://lazy.folke.io",
-    "selectors": [
-      "article"
-    ]
+    "selectors": ["article"]
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3",
-      "nav",
-      "aside"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
     "matches": "https://ai.google.dev",
-    "selectors": [
-      ".devsite-article-body"
-    ]
+    "selectors": [".devsite-article-body"]
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3",
-      "nav",
-      "aside",
-      "button"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside", "button"],
     "matches": "https://cmp.saghen.dev",
-    "selectors": [
-      ".content"
-    ]
+    "selectors": [".content"]
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3",
-      "nav",
-      "aside"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
     "matches": "https://ghostty.org",
-    "selectors": [
-      "main"
-    ]
+    "selectors": ["main"]
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3",
-      "nav",
-      "aside"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
     "matches": "https://en.wikipedia.org",
-    "selectors": [
-      "#bodyContent"
-    ]
+    "selectors": ["#bodyContent"]
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3",
-      "nav",
-      "aside"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
     "matches": "https://css-tricks.com",
-    "selectors": [
-      ".article-content"
-    ]
+    "selectors": [".article-content"]
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3",
-      "nav",
-      "aside"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3", "nav", "aside"],
     "matches": "https://vercel.com",
     "selectors": []
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3"],
     "matches": "https://stackoverflow.com",
-    "selectors": [
-      ".s-prose.js-post-body",
-      ".comment-copy"
-    ]
+    "selectors": [".s-prose.js-post-body", ".comment-copy"]
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3"],
     "matches": "lazyvim-ambitious-devs.phillips.codes",
-    "selectors": [
-      ".sectionbody"
-    ]
+    "selectors": [".sectionbody"]
   },
   {
-    "excludeSelectors": [
-      "table",
-      "h1",
-      "h2",
-      "h3"
-    ],
+    "excludeSelectors": ["table", "h1", "h2", "h3"],
     "matches": "www.lazyvim.org",
-    "selectors": [
-      "article"
-    ]
+    "selectors": ["article"]
   },
   {
     "matches": "www.google.com",
-    "selectors": [
-      ".title"
-    ]
+    "selectors": [".title"]
   },
   {
-    "excludeSelectors": [
-      "nav",
-      "footer"
-    ],
+    "excludeSelectors": ["nav", "footer"],
     "matches": "twitter.com",
-    "selectors": [
-      ".text"
-    ]
+    "selectors": [".text"]
   }
 ]
